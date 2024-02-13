@@ -1,18 +1,9 @@
-import React from "react";
-import styles from "./style.js";
+import React from 'react'
 
 const App = () => {
-    return (
-        <div>
-            <div className={`${styles.padding} ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>Navbar</div>
-            </div>
+  return (
+    <div>App</div>
+  )
+}
 
-            <div className={` ${styles.flexStart}`}>
-                <div className={`${styles.boxWidth}`}>Hero</div>
-            </div>
-        </div>
-    );
-};
-
-export default App;
+export default App
