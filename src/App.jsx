@@ -17,7 +17,9 @@ import {
 const App = () => {
     return (
         <div>
-            <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
+            <div
+                className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}
+            >
                 <div className={`${styles.boxWidth}`}>
                     <Navbar />
                 </div>
