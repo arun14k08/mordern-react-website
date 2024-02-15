@@ -16,7 +16,7 @@ import {
 
 const App = () => {
     return (
-        <div>
+        <div className={`${styles.paddingX} bg-primary`}>
             <div
                 className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}
             >
@@ -34,15 +34,16 @@ const App = () => {
             <div
                 className={`${styles.paddingX} ${styles.flexStart} bg-primary`}
             >
-                <Stats />
-                <Business />
-                <Billing />
-                <CardDeal />
-                <Testimonials />
-                <Clients />
-                <CTA />
-                <Footer />
-                <div className={`${styles.boxWidth}`}></div>
+                <div className={`${styles.boxWidth}`}>
+                    <Stats />
+                    <Business />
+                    <Billing />
+                    <CardDeal />
+                    <Testimonials />
+                    <Clients />
+                    <CTA />
+                    <Footer />
+                </div>
             </div>
         </div>
     );
